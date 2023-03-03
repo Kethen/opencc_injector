@@ -1,0 +1,15 @@
+LIBPINYIN {
+	global:
+		pinyin_init;
+		pinyin_alloc_instance;
+		pinyin_set_options;
+		pinyin_free_instance;
+		pinyin_fini;
+		pinyin_parse_more_full_pinyins;
+		pinyin_guess_candidates;
+		pinyin_get_n_candidate;
+		pinyin_get_candidate;
+		pinyin_get_candidate_string;
+		pinyin_choose_candidate;
+		pinyin_reset;
+};
